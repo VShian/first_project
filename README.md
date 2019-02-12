@@ -5,6 +5,7 @@ The app takes a scanned image of passport and displays the Name and Address of t
 - django 2.0 or higher
 - python 3.6 or higher
 - pytesseract
+- PIL
 
 ## Running
 - In the command prompt type **`python manage.py runserver`** to run the app.  
