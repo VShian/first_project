@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>image form</title>
+</head>
+<body>
+		<center>
+			<h1>Upload image</h1><br>
+<form name = "form" enctype="multipart/form-data" action="{% url 'saved' %}" method ="POST">{% csrf_token %}
+	<div style="max-width: 470px;">
+			<input type="text" name="name" style="margin-left:0%;" placeholder="Picture">
+		 <br><br>
+            <input type = "file" style = "margin-left:20%;" 
+                placeholder = "Picture" name = "picture" />
+        
+	</div>
+	<br>
+	<div style = "max-width:470px;">
+		
+			<button style="border:0px;background-color: #4285F4; margin-top:8%;height: 35px; width:80%;  type="submit" value="Upload"><strong>Upload</strong></button>
+	</div>
+</form>
+		</center>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saved</title>
+</head>
+<body>
+	<center>
+		<h1>Details:</h1>
+{% if saved %}
+<!-- <strong>Your image was saved.</strong> -->
+
+<p>Surname: {{ data.0 }}</p>
+<p>Name: {{data.1}}</p>
+<p>Address: {{data.2}}</p>
+
+{% endif %}
+
+{% if not saved %}
+<strong>Your image was not saved.</strong>
+{% endif %}
+</center>
+</body>
+</html>
