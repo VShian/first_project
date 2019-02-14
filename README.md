@@ -5,12 +5,16 @@ The app takes a scanned image of passport and displays the Name and Address of t
 - django 2.0 or higher
 - python 3.6 or higher
 - pytesseract
-- PIL
+- Pillow
 
 ## Running
-- open the folder in terminal and type **`pip3 install -r requirements.txt`**
-- type **`python manage.py makemigrations`**
-- In the command prompt type **`python manage.py runserver`** to run the app.  
+- open the folder in terminal and type the following commands
+  - **`sudo apt update`**
+  - **`sudo apt install tesseract-ocr`**
+  - **`sudo apt install libtesseract-dev`**
+  - **`pip3 install -r requirements.txt`**
+  - **`python manage.py makemigrations`**
+  - **`python manage.py runserver`**
 - Go to http://127.0.0.1:8000/image/ in your web browser.  
 - Give a name in the description of the image **Mandatory**.  
 - choose an image to upload.  
