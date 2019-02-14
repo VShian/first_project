@@ -1,4 +1,4 @@
-django
-PIL
-python == 3.6
+django == 2.0
+PIL == 1.1.7
+python == 3.6.7
 pytesseract
