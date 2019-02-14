@@ -13,8 +13,8 @@ The app takes a scanned image of passport and displays the Name and Address of t
   - **`sudo apt install tesseract-ocr`**
   - **`sudo apt install libtesseract-dev`**
   - **`pip3 install -r requirements.txt`**
-  - **`python manage.py makemigrations`**
-  - **`python manage.py runserver`**
+  - **`python3 manage.py makemigrations`**
+  - **`python3 manage.py runserver`**
 - Go to http://127.0.0.1:8000/image/ in your web browser.  
 - Give a name in the description of the image **Mandatory**.  
 - choose an image to upload.  
