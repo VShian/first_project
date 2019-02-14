@@ -1,0 +1,4 @@
+django
+PIL
+python == 3.6
+pytesseract
